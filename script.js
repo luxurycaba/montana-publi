@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnBienvenida = document.getElementById("btn-bienvenida");
     const btnRegistrarUsuario = document.getElementById("btn-registrarUsuario");
     const derivar = document.getElementById("btn-derivar");
+    const derivar2 = document.getElementById("btn-derivar2");
     const bono = document.getElementById("btn-bono");
     const sistemaDePagos = document.getElementById("btn-sistemaDePagos");
     const overlayRegistrar = document.getElementById("overlay-registrar");
@@ -20,12 +21,23 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
     derivar.addEventListener("click", () => {
-      const texto = `Buenísimo!! Una pasito más 🙏🏼
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro *WHATSAPP PRINCIPAL* que le vamos a estar enviando debajo… Por favor envíenos: 
 
-*Para la carga de su saldo + el bonus escribime a mi WHATSAPP PRINCIPAL que le vamos a estar enviando debajo… Por favor envíenos:*
+🔺 Su usuario asignado
+🔺 El comprobante de su transferencia 
 
-♦️Su usuario asignado 
-♦️El comprobante de su transferencia 
+‪+54 11 2694-6489‬
+`;
+      copyToClipboard(texto);
+    });
+
+    derivar2.addEventListener("click", () => {
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro *WHATSAPP PRINCIPAL* que le vamos a estar enviando debajo… Por favor envíenos: 
+
+🔺 Su usuario asignado
+🔺 El comprobante de su transferencia 
+
+‪+54 9 3329 38‑9624‬
 `;
       copyToClipboard(texto);
     });
