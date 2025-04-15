@@ -1,11 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Obtener los elementos
-    const btnBienvenida = document.getElementById("btn-bienvenida");
+    // Obtener los elementos    const btnBienvenida = document.getElementById("btn-bienvenida");
     const btnRegistrarUsuario = document.getElementById("btn-registrarUsuario");
     const derivar = document.getElementById("btn-derivar");
     const derivar2 = document.getElementById("btn-derivar2");
-    const bono = document.getElementById("btn-bono");
-    const sistemaDePagos = document.getElementById("btn-sistemaDePagos");
     const overlayRegistrar = document.getElementById("overlay-registrar");
     const formRegistrar = document.querySelector("form"); // Seleccionamos el formulario
   
@@ -21,73 +18,23 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
     derivar.addEventListener("click", () => {
-      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro *WHATSAPP PRINCIPAL* que le vamos a estar enviando debajo… Por favor envíenos: 
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea  oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos: 
 
-🔺 Su usuario asignado
-🔺 El comprobante de su transferencia 
+🔺 Su u5u4ri0 asignad0
+🔺 El c0mpr0b4nte de su tr4n5ferenc1a 
 
-‪+54 11 2694-6489‬
+ +54 11 2694-6489
 `;
       copyToClipboard(texto);
     });
 
     derivar2.addEventListener("click", () => {
-      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro *WHATSAPP PRINCIPAL* que le vamos a estar enviando debajo… Por favor envíenos: 
+      const texto = `BuenísimoPara una mejor atención escribinos a nuestro linea  oficial de whatsapp  que le vamos a estar enviando debajo… Por favor envíenos: 
 
-🔺 Su usuario asignado
-🔺 El comprobante de su transferencia 
+ Su u5u4ri0 asignad0
+ El c0mpr0b4nte de su tr4n5ferenc1a 
 
-‪+54 9 3329 38‑9624‬
-`;
-      copyToClipboard(texto);
-    });
-  
-    bono.addEventListener("click", () => {
-      const texto = `⬇️ *INFO IMPORTANTE* ⬇️
-
-Hay juegos que *NO* permiten usar la bonificación, y estos se encuentran en la sección *BUY BONUS*. 
-
-Los juegos que SI permiten usarla son los que tienen *FS* en la imagen. En estos juegos, puedes gastar la bonificación sin problemas, y si ganas, el dinero ganado se podrá retirar! 🥳
-
-En caso de no usar la bonificación, no es posible retirarla 🚫`;
-      copyToClipboard(texto);
-    });
-  
-    btnBienvenida.addEventListener("click", () => {
-      const texto = `Bienvenido a montana donde la emoción nunca se detiene 💯🎰
-
-🎁🔥 *200% en tu primer deposito*🔥🎁
-
-Sitio web: http://kingcash7.net
-
-🔺Minimo de carga *$1.000*💸
-🔺Minimo de retiro *$3.000*💸
-🔺Atención las 24 hs ⏰
-🔺Bonus en todas tus cargas diarias 💃
-
-(Consultar por cronograma de pagos) 🙏🏻
-
-Como empezar❓dejame tu nombre o apodo y te creamos una cuenta para comenzar a jugar 🫡🍀`;
-      copyToClipboard(texto);
-    });
-  
-  
-    sistemaDePagos.addEventListener("click", () => {
-      const texto = `*Horarios de retiros* : 
-  
-♦️ Días hábiles: De 13:00hs a 00:00hs 
-♦️ Fines de semana: De 13:00hs a 02:00hs
-
-*Limite de retiros*:
-
-♦️Mínimo de retiro: $2.000
-♦️Máximo de retiro por día: $100.000
-
-*Importante* ‼⬇
-
-♦️ Usuario que retire desde $2.000 a $20.000 puede realizar un retiro mas, luego se tiene que cumplir 24hs para volver a retirar
-
-♦️ Para retiros superiores a $20.000, se permite solo un retiro cada 24 horas.
+ +54 9 3329 38‑9624
 `;
       copyToClipboard(texto);
     });
@@ -127,14 +74,19 @@ Como empezar❓dejame tu nombre o apodo y te creamos una cuenta para comenzar a 
       e.preventDefault(); // Evita el comportamiento por defecto del formulario
       overlayRegistrar.style.display = "none"; // Cerrar el overlay del tercer menú
       const user = document.getElementById("usuarioRegistrar").value.trim();
-      const texto = `Usuario registrado ✅
+      const texto = `Bienvenido a BOOM 💣 donde la em0ción nunca se detiene 💯🎉
+ 
+🎁🔥 *200% en tu pr1mer dep0si70*🔥🎁
 
-🔺Usuario: ${user}
-🔺Clave: vip123
+📲 Usu4ri0 : ${user}
+🔐 Cl4ve : vip123
+ 
+🔺M1n1m0 de c4rg4    *$1.000*
+🔺 M1n1m0 de re7ir0    *$3.000*
+🔺4tenci0n las 24 hs ⏰
+🔺B0nu5 en todas tus c4rg4s di4ri4s💥😱
 
-Plataforma: http://kingcash7.net 🎰
-
-te dejo alias para cargar? confirmame 😊
+En caso de querer comenzar a jug4r, solicita nuestro 4L14S 👇🏼
 `;
       copyToClipboard(texto);
       formRegistrar.reset(); // Limpiar los campos del formulario
