@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const user = document.getElementById("usuarioRegistrar").value.trim();
       const texto = `Bienvenido a BOOM 💣 donde la em0ción nunca se detiene 💯🎉
  
-🎁🔥 *200% en tu pr1mer dep0si70*🔥🎁
+🎁😱 *200% de b0nu5 en tu pr1mer dep0si70* 😱🎁
 
 📲 Usu4ri0 : ${user}
 🔐 Cl4ve : vip123
@@ -87,8 +87,8 @@ L1NK: http://kingcash7.net
 🔺 M1n1m0 de re7ir0    *$3.000*
 🔺4tenci0n las 24 hs ⏰
 🔺B0nu5 en todas tus c4rg4s di4ri4s💥😱
-
-En caso de querer comenzar a jug4r, solicita nuestro 4L14S 👇🏼
+ 
+Te envio 4li4s ? confirmame 🍀😊
 `;
       copyToClipboard(texto);
       formRegistrar.reset(); // Limpiar los campos del formulario
