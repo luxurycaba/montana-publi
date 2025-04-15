@@ -80,6 +80,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 📲 Usu4ri0 : ${user}
 🔐 Cl4ve : vip123
+
+L1NK: http://kingcash7.net
  
 🔺M1n1m0 de c4rg4    *$1.000*
 🔺 M1n1m0 de re7ir0    *$3.000*
