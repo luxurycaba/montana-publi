@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnRegistrarUsuario = document.getElementById("btn-registrarUsuario");
     const derivar = document.getElementById("btn-derivar");
     const derivar2 = document.getElementById("btn-derivar2");
+    const derivar3 = document.getElementById("btn-derivar3");
     const overlayRegistrar = document.getElementById("overlay-registrar");
     const formRegistrar = document.querySelector("form"); // Seleccionamos el formulario
   
@@ -18,23 +19,34 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
     derivar.addEventListener("click", () => {
-      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea  oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos: 
-
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
+ 
 🔺 Su u5u4ri0 asignad0
-🔺 El c0mpr0b4nte de su tr4n5ferenc1a 
-
- +54 11 2694-6489
+🔺 El c0mpr0b4nte de su tr4n5ferenc1a
+ 
++54 11 7627-7867
 `;
       copyToClipboard(texto);
     });
 
     derivar2.addEventListener("click", () => {
-      const texto = `BuenísimoPara una mejor atención escribinos a nuestro linea  oficial de whatsapp  que le vamos a estar enviando debajo… Por favor envíenos: 
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
+ 
+🔺 Su u5u4ri0 asignad0
+🔺 El c0mpr0b4nte de su tr4n5ferenc1a
+ 
++54 11 2702-5701
+`;
+      copyToClipboard(texto);
+    });
 
- Su u5u4ri0 asignad0
- El c0mpr0b4nte de su tr4n5ferenc1a 
-
- +54 9 3329 38‑9624
+    derivar3.addEventListener("click", () => {
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
+ 
+🔺 Su u5u4ri0 asignad0
+🔺 El c0mpr0b4nte de su tr4n5ferenc1a
+ 
++54 9 11 2694-6489
 `;
       copyToClipboard(texto);
     });
