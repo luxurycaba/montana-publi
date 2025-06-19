@@ -1,11 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Obtener los elementos    const btnBienvenida = document.getElementById("btn-bienvenida");
     const btnRegistrarUsuario = document.getElementById("btn-registrarUsuario");
+    const referidoAcreditado = document.getElementById("btn-referidoAcreditado");
     const derivar = document.getElementById("btn-derivar");
     const derivar2 = document.getElementById("btn-derivar2");
     const derivar3 = document.getElementById("btn-derivar3");
     const overlayRegistrar = document.getElementById("overlay-registrar");
+    const overlayReferidoAcreditado = document.getElementById("overlay-referidoAcreditado");
     const formRegistrar = document.querySelector("form"); // Seleccionamos el formulario
+    const formReferidoAcreditado = document.querySelectorAll("form")[1]; // Seleccionamos el segundo formulario
   
     // Funcion para copiar texto al portapapeles
     function copyToClipboard(text) {
@@ -106,6 +109,45 @@ Te envio 4li4s ? confirmame 🍀😊
       formRegistrar.reset(); // Limpiar los campos del formulario
       document.body.style.overflow = "auto"; // Permitir desplazamiento del body
     });
-  
+
+    referidoAcreditado.addEventListener("click", function () {
+      if (overlayReferidoAcreditado.style.display === "flex") {
+        overlayReferidoAcreditado.style.display = "none"; // Cerrar overlay
+        document.body.style.overflow = "auto"; // Permitir desplazamiento del body
+      } else {
+        overlayReferidoAcreditado.style.display = "flex"; // Abrir overlay
+        document.body.style.overflow = "hidden"; // Deshabilitar el scroll del body
+      }
+      document.getElementById("usuarioQueRefiere").focus();
+    });
+
+    overlayReferidoAcreditado.addEventListener("click", function (e) {
+      if (e.target === overlayReferidoAcreditado) {
+        overlayReferidoAcreditado.style.display = "none"; // Cerrar overlay si se hace clic fuera del formulario
+        formReferidoAcreditado.reset(); // Limpiar los campos del formulario
+        document.body.style.overflow = "auto"; // Permitir desplazamiento del body
+      }
+    });    
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        // Verifica si la tecla presionada es Escape
+        overlayReferidoAcreditado.style.display = "none"; // Cerrar overlay si se hace clic fuera del formulario
+        formReferidoAcreditado.reset(); // Limpiar los campos del formulario
+        document.body.style.overflow = "auto"; // Permitir desplazamiento del body
+      }
+    });
+
+    formReferidoAcreditado.addEventListener("submit", function (e) {
+      e.preventDefault(); // Evita el comportamiento por defecto del formulario
+      overlayReferidoAcreditado.style.display = "none"; // Cerrar el overlay del quinto menú
+      const usuario1 = document.getElementById("usuarioQueRefiere").value.trim();
+      const usuario2 = document.getElementById("usuarioReferido").value.trim();
+      const texto = `El usu4ri0 *${usuario1}* recomendó al usu4ri0 *${usuario2}* y fue b0nific4d0!! ✅ 
+Muchas gracias por tu recomendación ! exitooos ❤️🍀`;
+      copyToClipboard(texto);
+      formReferidoAcreditado.reset(); // Limpiar los campos del formulario
+      document.body.style.overflow = "auto"; // Permitir desplazamiento del body
+    });
+
 });
-  
