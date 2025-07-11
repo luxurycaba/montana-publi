@@ -89,10 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault(); // Evita el comportamiento por defecto del formulario
       overlayRegistrar.style.display = "none"; // Cerrar el overlay del tercer menú
       const user = document.getElementById("usuarioRegistrar").value.trim();
-      const texto = `BOTON REGISTRAR USUARIO en publi: 
-
-
-Bienvenid@ a MONTANA c4sin0! 🎰🔥 Tu suerte arranca HOY 🍀🫰🏼
+      const texto = `Bienvenid@ a MONTANA c4sin0! 🎰🔥 Tu suerte arranca HOY 🍀🫰🏼
 
 💥 *200% de b0n0 de regalo en tu primer deposito*💃
 💥 *150% en tu segunda c4rg4* 😱
