@@ -89,21 +89,25 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault(); // Evita el comportamiento por defecto del formulario
       overlayRegistrar.style.display = "none"; // Cerrar el overlay del tercer menú
       const user = document.getElementById("usuarioRegistrar").value.trim();
-      const texto = `Bienvenido a BOOM 💣 donde la em0ción nunca se detiene 💯🎉
- 
-🎁😱 *200% de b0nu5 en tu pr1mer dep0si70* 😱🎁
+      const texto = `BOTON REGISTRAR USUARIO en publi: 
 
-📲 Usu4ri0 : ${user}
-🔐 Cl4ve : vip123
 
-L1NK: http://kingcash7.net
- 
-🔺M1n1m0 de c4rg4    *$1.000*
-🔺 M1n1m0 de re7ir0    *$3.000*
-🔺4tenci0n las 24 hs ⏰
-🔺B0nu5 en todas tus c4rg4s di4ri4s💥😱
- 
-Te envio 4li4s ? confirmame 🍀😊
+Bienvenid@ a MONTANA c4sin0! 🎰🔥 Tu suerte arranca HOY 🍀🫰🏼
+
+💥 *200% de b0n0 de regalo en tu primer deposito*💃
+💥 *150% en tu segunda c4rg4* 😱
+
+📲 Usu4rio: ${user}
+🔐 Cl4ve: vip123
+
+L1NK: https://kingcash7.net 🫰🏼
+
+🔺M1n1mo de c4rg4: *$1.000*
+🔺M1n1m0 de retiro: *$3.000*
+🔺 Atencion las 24 hs 🕒
+🔺B0nus en todas tus c4rgas diarias 💃🥳
+
+Te envio 4li4s? confirmame 🥰
 `;
       copyToClipboard(texto);
       formRegistrar.reset(); // Limpiar los campos del formulario
