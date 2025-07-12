@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAD - MONTANA PUBLI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <button class="btn-container no-select" id="btn-registrarUsuario">
+        REGISTRAR USUARIO
+      </button>
+      <button class="btn-container no-select" id="btn-referidoAcreditado">
+        REFERIDO ACREDITADO
+      </button>
+      <button class="btn-container no-select" id="btn-derivar">DERIVAR #1</button>
+      <button class="btn-container no-select" id="btn-derivar2">DERIVAR #2</button>
+      <button class="btn-container no-select" id="btn-derivar3">DERIVAR #3</button>
+      <button class="btn-container no-select" id="btn-derivar4">DERIVAR #4</button>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay-btn" id="overlay-registrar">
+      <!-- Formulario de bienvenida -->
+      <div class="form-container">
+        <form action="#" method="POST">
+          <h2>Ingresar usuario:</h2>
+          <input
+            type="text"
+            id="usuarioRegistrar"
+            name="usuarioRegistrar"
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Overlay 2 -->
+    <div class="overlay-btn" id="overlay-referidoAcreditado">
+      <!-- Formulario de Referido Acreditado -->
+      <div class="form-container">
+        <form action="#" method="POST">
+          <h2>Usuario que refiere:</h2>
+          <input
+            type="text"
+            id="usuarioQueRefiere"
+            name="usuarioQueRefiere"
+            required
+          />
+          <h2>Usuario referido:</h2>
+          <input
+            type="text"
+            id="usuarioReferido"
+            name="usuarioReferido"
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
