@@ -23,9 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
     derivar.addEventListener("click", () => {
-      const texto = `DERIVAR 1: 
-
-Buenísimo‼️Para una mejor atención escribinos a nuestro linea2 oficial de whatsapp  ✅ que le vamos a estar enviando debajo… Por favor envíenos:
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea2 oficial de whatsapp  ✅ que le vamos a estar enviando debajo… Por favor envíenos:
  
 🔹 Su u5u4ri0 asignad0
 🔹 El c0mpr0b4nte de su tr4n5ferenc1a
@@ -36,9 +34,7 @@ Buenísimo‼️Para una mejor atención escribinos a nuestro linea2 oficial de 
     });
 
     derivar2.addEventListener("click", () => {
-      const texto = `DERIVAR 2:
-
-Buenísimo‼️Para una mejor atención escribinos a nuestro linea3 oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea3 oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
  
 🔸 Su u5u4ri0 asignad0
 🔸 El c0mpr0b4nte de su tr4n5ferenc1a
@@ -49,9 +45,7 @@ Buenísimo‼️Para una mejor atención escribinos a nuestro linea3 oficial de 
     });
 
     derivar3.addEventListener("click", () => {
-      const texto = `DERIVAR 3: 
-
-Buenísimo‼️Para una mejor atención escribinos a nuestro linea4 oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea4 oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
  
 🔸 Su u5u4ri0 asignad0
 🔸 El c0mpr0b4nte de su tr4n5ferenc1a
@@ -63,9 +57,7 @@ Buenísimo‼️Para una mejor atención escribinos a nuestro linea4 oficial de 
     });
 
     derivar4.addEventListener("click", () => {
-      const texto = `DERIVAR 4: 
-
-Buenísimo‼️Para una mejor atención escribinos a nuestro linea5 oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
+      const texto = `Buenísimo‼️Para una mejor atención escribinos a nuestro linea5 oficial de whatsapp ✅ que le vamos a estar enviando debajo… Por favor envíenos:
  
 🔺 Su u5u4ri0 asignad0
 🔺 El c0mpr0b4nte de su tr4n5ferenc1a
